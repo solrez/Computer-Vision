@@ -49,6 +49,5 @@ while True:
 	if cv2.waitKey(1) == ord("e"):
 		break
 
-# cleanup the camera and close any open windows
 camera.release()
 cv2.destroyAllWindows()
